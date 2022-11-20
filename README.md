@@ -16,12 +16,7 @@
   - 영한님이 강의에서 강조한 내용에 대한 복기
   - 강의 예제 코드를 조금 더 확장하거나 변형해서 코드리뷰하기
 - 인강 순서 : 야생형 [세부 커리큘럼 확인하기][ 2 ]
-  1. 활용편1
-  2. JPA 기본편
-  3. 활용편 1 복습 (1주일 진행)
-  4. 활용편 2 
-  5. 스프링 데이터 JPA
-  6. Querydsl  
+<img width="810" alt="image" src="https://user-images.githubusercontent.com/62336151/202889564-ab974a9c-de06-45e2-ba83-1eaa174e4db3.png">
   
   
 [ 1 ]: https://www.inflearn.com/roadmaps/149
