@@ -17,7 +17,28 @@
   - 강의 예제 코드를 조금 더 확장하거나 변형해서 코드리뷰하기
 - 인강 순서 : 야생형 [세부 커리큘럼 확인하기][ 2 ]
 <img width="810" alt="image" src="https://user-images.githubusercontent.com/62336151/202889564-ab974a9c-de06-45e2-ba83-1eaa174e4db3.png">
-  
-  
+
+<br>
+<hr>
+<br>
+
+# 디렉토리 구조
+```
+├── README.md
+├── seohyun
+│   └── Spring
+│       └── 로드맵이름
+│           ├── 강좌이름
+│           ├── 강좌이름
+│           └── 강좌이름
+├── 본인이름
+│   └── Spring
+│       └── 로드맵이름
+│           ├── 강좌이름
+│           ├── 강좌이름
+│           └── 강좌이름
+
+```
 [ 1 ]: https://www.inflearn.com/roadmaps/149
 [ 2 ]: https://www.notion.so/seohyun-dev/JPA-38e7c7e4750044a69292609c5ac91d62
+
