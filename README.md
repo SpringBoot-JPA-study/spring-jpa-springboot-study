@@ -14,6 +14,8 @@
   - 매일 공부하기 힘들다면, 게더타운에서 모여, 다르 팀원들이 공부하는 모습을 보며, 자극 받아보세요! 매일 매일 꾸준히 하는 것 보다 더 좋은 공부 방법은 없습니다.
   - 인강 순서 : 야생형 [세부 커리큘럼 확인하기][ 2 ]
   <img width="810" alt="image" src="https://user-images.githubusercontent.com/62336151/202889564-ab974a9c-de06-45e2-ba83-1eaa174e4db3.png">
+  - Git flow 참고
+  <img width="1694" alt="git_flow" src="https://user-images.githubusercontent.com/62336151/205941966-84335e82-8b14-4206-93ed-ea3c75a65406.png">
 <br>
 
 ## 2. 매주 화요일 오후 6시 미팅에 참석한다.
