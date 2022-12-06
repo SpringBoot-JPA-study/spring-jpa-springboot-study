@@ -79,7 +79,7 @@ Object-Relational Mapping
 * 약간 DB와의 독립성
 &nbsp;&nbsp;-- ORM이 없는 일반적인 경우, DB를 다른 것으로 바꾸게 되면 DB에 맞는 쿼리를 다시 작성해야한다.
 &nbsp;&nbsp;-- ORM이면, DB에 맞는 연결만 해주면 되니까, 쿼리를 수정할 필요가 없다.  
-
+<br>
 
 
 **ORM 단점**
