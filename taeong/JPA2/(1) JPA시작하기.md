@@ -71,6 +71,8 @@
     - 이제는 이렇게 구현할 필요가 없음. 스프링이 자동으로 해주니까!
     
 
+<br>
+    
 ### 데이터를 수정하는 경우
 
 - 멤버의 이름을 수정하는 경우
@@ -84,3 +86,40 @@
     - JPA를 통해서 엔티티를 가져오면 JPA가 관리를 하게 됨
     - 트랜잭션 커밋 시점에 변경 여부를 체크함
     - 뭔가 변경된 부분이 있으면 자동으로 업데이트 쿼리를 만들어 날림
+
+<br>
+    
+    
+### 주의
+
+- 엔티티 매니저 팩토리는 웹 서버가 올라오는 시점에 딱 한 번만 생성됨
+- 엔티티 매니저는 요청이 들어올 때마다 생성했다가 다 쓰면 버림
+- 엔티티 매니저는 스레드간에 공유하면 절대 안됨! → 장애의 주범
+- JPA의 모든 데이터 변경은 트랜잭션 안에서 실행되어야 함
+
+<br>
+    
+### JPQL
+
+1. 등장배경
+    - JPA를 사용하면 엔티티 객체를 중심으로 개발
+    - 그러나 검색을 할 때 JPA는 엔티티 객체를 대상으로 검색하지만 모든 DB 데이터를 객체로 변환해서 검색하는 것은 불가능
+    - 애플리케이션이 필요한 데이터를 불러오는 경우 검색 조건이 포함된 SQL이 필요할 수 밖에 없음
+    - 이 때 사용하는 것이 JPQL!
+2. JPQL
+- JPQL : SQL을 추상화한 객체 지향 쿼리 언어
+- 테이블이 아니라 Member 객체를 대상으로 쿼리를 작성하는 개념!
+- ex. DB에서 멤버 목록을 조회하는 경우
+    
+    ```java
+    List<Member> memberList = em.createQuery("select m from Member", Member.class).getResultList();
+    ```
+    
+- ex. 페이징을 하는 경우
+    
+    ```java
+    List<Member> memberList = em.createQuery("select m from Member", Member.class)
+    				.setFirstResult(5)
+    				.setMaxResults(8)
+    				.getResultList();
+    ```
