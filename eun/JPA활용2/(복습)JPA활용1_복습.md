@@ -78,14 +78,25 @@
 
 ## [ 도메인 모델 ]
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f29135cf-56e0-465a-b866-cc9d83b1a425/Untitled.png)
+<center>
+  <img
+    src="./Model_Domain.png"
+    width="510"
+    height="250"
+  />
+</center>
 
 </br>
 
 ## [ 테이블 ]
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25a79745-9716-480b-9ddd-15bc5ea8ceef/Untitled.png)
-
+<center>
+  <img
+    src="./Model_Table.png"
+    width="800"
+    height="700"
+  />
+</center>
 
 </br>
 
@@ -93,8 +104,13 @@
 
 **************************엔티티 모델**************************
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a9a3832-8af8-4179-a563-1cbc7ce0ee2b/Untitled.png)
-
+<center>
+  <img
+    src="./Model_Entity.png"
+    width="750"
+    height="425"
+  />
+</center>
 </br>
 
 
