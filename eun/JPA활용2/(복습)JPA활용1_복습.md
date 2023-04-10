@@ -219,8 +219,6 @@ public class Address {
 
 ### [ 주문 엔티티 ]
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a481730f-0980-47e5-adac-17b48395a28c/Untitled.png)
-
 ```java
 @Entity
 @Table(name = "orders")
@@ -306,8 +304,6 @@ public enum OrderStatus {
 
 ## [ 주문-상품 엔티티 ]
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c587d4b8-c0d1-4670-9eb4-1c3fe665f8d6/Untitled.png)
-
 ```java
 @Entity
 @Table(name = "order_item")
@@ -337,14 +333,6 @@ public class OrderItem {
 </br>
 
 ## [ 상품 엔티티 ]
-
-**테이블** 
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a46bb75-28e1-424c-bc26-73cb444ddac8/Untitled.png)
-
-**엔티티 모델**
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a0c5ca8-e4f0-4714-b182-3d07a9eccc1d/Untitled.png)
 
 ```java
 @Entity
@@ -411,20 +399,12 @@ public class Movie extends Item {
  private String director;
  private String actor;
 }
-배송 엔티
 ```
 
 </br>
 
 ## [ 카테고리 엔티티 ]
 
-**테이블 모델**
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6493a1d8-b595-4a66-ba14-bee88a2ff313/Untitled.png)
-
-**엔티티 모델**
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84ff7483-c40a-4288-9563-bb9e2fa38b49/Untitled.png)
 
 ```java
 @Entity
