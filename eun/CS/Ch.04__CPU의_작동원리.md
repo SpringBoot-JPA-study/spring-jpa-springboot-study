@@ -12,7 +12,15 @@
 
 ### { 1 }  ALU입출력과 연산
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d374c099-0073-455a-9d1b-4aed7a676c63/Untitled.png)
+<center>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ALU_block.gif/1200px-ALU_block.gif?20141125142634"
+    width="510"
+    height="250"
+  />
+</center>
+
+</br>
 
 → ALU 그림 필요
 
